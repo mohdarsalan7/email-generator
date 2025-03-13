@@ -16,14 +16,14 @@ import GeneratedEmail from './GeneratedEmail';
 const EmailGenerator = () => {
   const [activeTab, setActiveTab] = useState('hr'); // 'hr' or 'business'
   const [formData, setFormData] = useState({
-    name: 'Mohd Arsalan',
-    email: 'thesiddiqui7@gmail.com',
-    mobile: '123456790',
-    skills: 'React.js, Node.js, MongoDB, TypeScript, Web3, Blockchain',
-    companyName: 'SecureYourself',
-    targetCompany: 'Microsoft', // For Business Proposal
-    proposalDetails: 'I want to collaborate on a cybersecurity solution.',
-    companyDealsIn: 'Blockchain, Web3, and AI',
+    name: '',
+    email: '',
+    mobile: '',
+    skills: '',
+    companyName: '',
+    targetCompany: '', // For Business Proposal
+    proposalDetails: '',
+    companyDealsIn: '',
   });
   const [generatedEmail, setGeneratedEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);
